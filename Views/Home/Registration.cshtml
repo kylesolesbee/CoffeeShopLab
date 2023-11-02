@@ -1,0 +1,23 @@
+﻿@model User
+
+<form method="post">
+    <table>
+        <tr>
+            <td><label asp-for="FirstName"></label></td>
+            <td><input asp-for="FirstName" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="LastName"></label></td>
+            <td><input asp-for="LastName" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Email"></label></td>
+            <td><input asp-for="Email" /></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Password"></label></td>
+            <td><input asp-for="Password" type="password" /></td>
+        </tr>
+    </table>
+    <button type="submit">Register</button>
+</form>
